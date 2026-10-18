@@ -11,7 +11,6 @@ public class Main {
         employees.add(new Developer("David", 24, 3000, "Python"));
         employees.add(new Manager("Levon", 32, 5000, 8));
 
-
         System.out.println("=== INFO ===");
         for (Employee emp : employees) {
             emp.displayInfo();
